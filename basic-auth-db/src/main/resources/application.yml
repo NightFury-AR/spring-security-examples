@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: basic-spring-auth-db
+  datasource:
+    url: jdbc:mysql://localhost:3306/users
+    username: root
+    password: Toothless.97
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        formal_sql: true
+  error:
+    include-message: always
